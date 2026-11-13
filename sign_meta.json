@@ -1,0 +1,549 @@
+{
+  "idx_to_sign": {
+    "0": "SIBI_A",
+    "1": "SIBI_B",
+    "2": "SIBI_C",
+    "3": "SIBI_D",
+    "4": "SIBI_E",
+    "5": "SIBI_F",
+    "6": "SIBI_G",
+    "7": "SIBI_H",
+    "8": "SIBI_I",
+    "9": "SIBI_K",
+    "10": "SIBI_L",
+    "11": "SIBI_M",
+    "12": "SIBI_N",
+    "13": "SIBI_O",
+    "14": "SIBI_P",
+    "15": "SIBI_Q",
+    "16": "SIBI_R",
+    "17": "SIBI_S",
+    "18": "SIBI_T",
+    "19": "SIBI_U",
+    "20": "SIBI_V",
+    "21": "SIBI_W",
+    "22": "SIBI_X",
+    "23": "SIBI_Y",
+    "24": "SIBI_1",
+    "25": "SIBI_2",
+    "26": "SIBI_3",
+    "27": "SIBI_4",
+    "28": "SIBI_5",
+    "29": "SIBI_6",
+    "30": "SIBI_7",
+    "31": "SIBI_8",
+    "32": "SIBI_9",
+    "33": "SIBI_Z",
+    "34": "SIBI_J",
+    "35": "BISINDO_0.0",
+    "36": "BISINDO_1.0",
+    "37": "BISINDO_2.0",
+    "38": "BISINDO_3.0",
+    "39": "BISINDO_4.0",
+    "40": "BISINDO_5.0",
+    "41": "BISINDO_6.0",
+    "42": "BISINDO_7.0",
+    "43": "BISINDO_8.0",
+    "44": "BISINDO_9.0",
+    "45": "BISINDO_10.0",
+    "46": "BISINDO_11.0",
+    "47": "BISINDO_12.0",
+    "48": "BISINDO_13.0",
+    "49": "BISINDO_14.0",
+    "50": "BISINDO_15.0",
+    "51": "BISINDO_16.0",
+    "52": "BISINDO_17.0",
+    "53": "BISINDO_18.0",
+    "54": "BISINDO_19.0",
+    "55": "BISINDO_20.0",
+    "56": "BISINDO_21.0",
+    "57": "BISINDO_22.0",
+    "58": "BISINDO_23.0",
+    "59": "BISINDO_24.0",
+    "60": "BISINDO_25.0",
+    "61": "BISINDO_1",
+    "62": "BISINDO_10",
+    "63": "BISINDO_2",
+    "64": "BISINDO_3",
+    "65": "BISINDO_4",
+    "66": "BISINDO_5",
+    "67": "BISINDO_6",
+    "68": "BISINDO_7",
+    "69": "BISINDO_8",
+    "70": "BISINDO_9",
+    "71": "BISINDO_A",
+    "72": "BISINDO_B",
+    "73": "BISINDO_BAHASA ISYARAT",
+    "74": "BISINDO_BELAJAR",
+    "75": "BISINDO_BISA",
+    "76": "BISINDO_C",
+    "77": "BISINDO_D",
+    "78": "BISINDO_E",
+    "79": "BISINDO_F",
+    "80": "BISINDO_G",
+    "81": "BISINDO_H",
+    "82": "BISINDO_I",
+    "83": "BISINDO_J",
+    "84": "BISINDO_K",
+    "85": "BISINDO_L",
+    "86": "BISINDO_M",
+    "87": "BISINDO_MAAF",
+    "88": "BISINDO_N",
+    "89": "BISINDO_O",
+    "90": "BISINDO_P",
+    "91": "BISINDO_PERMISI",
+    "92": "BISINDO_Q",
+    "93": "BISINDO_R",
+    "94": "BISINDO_S",
+    "95": "BISINDO_SAMA SAMA",
+    "96": "BISINDO_SEDIKIT",
+    "97": "BISINDO_T",
+    "98": "BISINDO_TEMAN-TEMAN",
+    "99": "BISINDO_TERIMAKASIH",
+    "100": "BISINDO_TOLONG",
+    "101": "BISINDO_U",
+    "102": "BISINDO_V",
+    "103": "BISINDO_W",
+    "104": "BISINDO_X",
+    "105": "BISINDO_Y",
+    "106": "BISINDO_Z"
+  },
+  "sign_to_idx": {
+    "SIBI_A": 0,
+    "SIBI_B": 1,
+    "SIBI_C": 2,
+    "SIBI_D": 3,
+    "SIBI_E": 4,
+    "SIBI_F": 5,
+    "SIBI_G": 6,
+    "SIBI_H": 7,
+    "SIBI_I": 8,
+    "SIBI_K": 9,
+    "SIBI_L": 10,
+    "SIBI_M": 11,
+    "SIBI_N": 12,
+    "SIBI_O": 13,
+    "SIBI_P": 14,
+    "SIBI_Q": 15,
+    "SIBI_R": 16,
+    "SIBI_S": 17,
+    "SIBI_T": 18,
+    "SIBI_U": 19,
+    "SIBI_V": 20,
+    "SIBI_W": 21,
+    "SIBI_X": 22,
+    "SIBI_Y": 23,
+    "SIBI_1": 24,
+    "SIBI_2": 25,
+    "SIBI_3": 26,
+    "SIBI_4": 27,
+    "SIBI_5": 28,
+    "SIBI_6": 29,
+    "SIBI_7": 30,
+    "SIBI_8": 31,
+    "SIBI_9": 32,
+    "SIBI_Z": 33,
+    "SIBI_J": 34,
+    "BISINDO_0.0": 35,
+    "BISINDO_1.0": 36,
+    "BISINDO_2.0": 37,
+    "BISINDO_3.0": 38,
+    "BISINDO_4.0": 39,
+    "BISINDO_5.0": 40,
+    "BISINDO_6.0": 41,
+    "BISINDO_7.0": 42,
+    "BISINDO_8.0": 43,
+    "BISINDO_9.0": 44,
+    "BISINDO_10.0": 45,
+    "BISINDO_11.0": 46,
+    "BISINDO_12.0": 47,
+    "BISINDO_13.0": 48,
+    "BISINDO_14.0": 49,
+    "BISINDO_15.0": 50,
+    "BISINDO_16.0": 51,
+    "BISINDO_17.0": 52,
+    "BISINDO_18.0": 53,
+    "BISINDO_19.0": 54,
+    "BISINDO_20.0": 55,
+    "BISINDO_21.0": 56,
+    "BISINDO_22.0": 57,
+    "BISINDO_23.0": 58,
+    "BISINDO_24.0": 59,
+    "BISINDO_25.0": 60,
+    "BISINDO_1": 61,
+    "BISINDO_10": 62,
+    "BISINDO_2": 63,
+    "BISINDO_3": 64,
+    "BISINDO_4": 65,
+    "BISINDO_5": 66,
+    "BISINDO_6": 67,
+    "BISINDO_7": 68,
+    "BISINDO_8": 69,
+    "BISINDO_9": 70,
+    "BISINDO_A": 71,
+    "BISINDO_B": 72,
+    "BISINDO_BAHASA ISYARAT": 73,
+    "BISINDO_BELAJAR": 74,
+    "BISINDO_BISA": 75,
+    "BISINDO_C": 76,
+    "BISINDO_D": 77,
+    "BISINDO_E": 78,
+    "BISINDO_F": 79,
+    "BISINDO_G": 80,
+    "BISINDO_H": 81,
+    "BISINDO_I": 82,
+    "BISINDO_J": 83,
+    "BISINDO_K": 84,
+    "BISINDO_L": 85,
+    "BISINDO_M": 86,
+    "BISINDO_MAAF": 87,
+    "BISINDO_N": 88,
+    "BISINDO_O": 89,
+    "BISINDO_P": 90,
+    "BISINDO_PERMISI": 91,
+    "BISINDO_Q": 92,
+    "BISINDO_R": 93,
+    "BISINDO_S": 94,
+    "BISINDO_SAMA SAMA": 95,
+    "BISINDO_SEDIKIT": 96,
+    "BISINDO_T": 97,
+    "BISINDO_TEMAN-TEMAN": 98,
+    "BISINDO_TERIMAKASIH": 99,
+    "BISINDO_TOLONG": 100,
+    "BISINDO_U": 101,
+    "BISINDO_V": 102,
+    "BISINDO_W": 103,
+    "BISINDO_X": 104,
+    "BISINDO_Y": 105,
+    "BISINDO_Z": 106
+  },
+  "sign_to_langs": {
+    "SIBI_A": [
+      "SIBI"
+    ],
+    "SIBI_B": [
+      "SIBI"
+    ],
+    "SIBI_C": [
+      "SIBI"
+    ],
+    "SIBI_D": [
+      "SIBI"
+    ],
+    "SIBI_E": [
+      "SIBI"
+    ],
+    "SIBI_F": [
+      "SIBI"
+    ],
+    "SIBI_G": [
+      "SIBI"
+    ],
+    "SIBI_H": [
+      "SIBI"
+    ],
+    "SIBI_I": [
+      "SIBI"
+    ],
+    "SIBI_K": [
+      "SIBI"
+    ],
+    "SIBI_L": [
+      "SIBI"
+    ],
+    "SIBI_M": [
+      "SIBI"
+    ],
+    "SIBI_N": [
+      "SIBI"
+    ],
+    "SIBI_O": [
+      "SIBI"
+    ],
+    "SIBI_P": [
+      "SIBI"
+    ],
+    "SIBI_Q": [
+      "SIBI"
+    ],
+    "SIBI_R": [
+      "SIBI"
+    ],
+    "SIBI_S": [
+      "SIBI"
+    ],
+    "SIBI_T": [
+      "SIBI"
+    ],
+    "SIBI_U": [
+      "SIBI"
+    ],
+    "SIBI_V": [
+      "SIBI"
+    ],
+    "SIBI_W": [
+      "SIBI"
+    ],
+    "SIBI_X": [
+      "SIBI"
+    ],
+    "SIBI_Y": [
+      "SIBI"
+    ],
+    "SIBI_1": [
+      "SIBI"
+    ],
+    "SIBI_2": [
+      "SIBI"
+    ],
+    "SIBI_3": [
+      "SIBI"
+    ],
+    "SIBI_4": [
+      "SIBI"
+    ],
+    "SIBI_5": [
+      "SIBI"
+    ],
+    "SIBI_6": [
+      "SIBI"
+    ],
+    "SIBI_7": [
+      "SIBI"
+    ],
+    "SIBI_8": [
+      "SIBI"
+    ],
+    "SIBI_9": [
+      "SIBI"
+    ],
+    "SIBI_Z": [
+      "SIBI"
+    ],
+    "SIBI_J": [
+      "SIBI"
+    ],
+    "BISINDO_0.0": [
+      "BISINDO"
+    ],
+    "BISINDO_1.0": [
+      "BISINDO"
+    ],
+    "BISINDO_2.0": [
+      "BISINDO"
+    ],
+    "BISINDO_3.0": [
+      "BISINDO"
+    ],
+    "BISINDO_4.0": [
+      "BISINDO"
+    ],
+    "BISINDO_5.0": [
+      "BISINDO"
+    ],
+    "BISINDO_6.0": [
+      "BISINDO"
+    ],
+    "BISINDO_7.0": [
+      "BISINDO"
+    ],
+    "BISINDO_8.0": [
+      "BISINDO"
+    ],
+    "BISINDO_9.0": [
+      "BISINDO"
+    ],
+    "BISINDO_10.0": [
+      "BISINDO"
+    ],
+    "BISINDO_11.0": [
+      "BISINDO"
+    ],
+    "BISINDO_12.0": [
+      "BISINDO"
+    ],
+    "BISINDO_13.0": [
+      "BISINDO"
+    ],
+    "BISINDO_14.0": [
+      "BISINDO"
+    ],
+    "BISINDO_15.0": [
+      "BISINDO"
+    ],
+    "BISINDO_16.0": [
+      "BISINDO"
+    ],
+    "BISINDO_17.0": [
+      "BISINDO"
+    ],
+    "BISINDO_18.0": [
+      "BISINDO"
+    ],
+    "BISINDO_19.0": [
+      "BISINDO"
+    ],
+    "BISINDO_20.0": [
+      "BISINDO"
+    ],
+    "BISINDO_21.0": [
+      "BISINDO"
+    ],
+    "BISINDO_22.0": [
+      "BISINDO"
+    ],
+    "BISINDO_23.0": [
+      "BISINDO"
+    ],
+    "BISINDO_24.0": [
+      "BISINDO"
+    ],
+    "BISINDO_25.0": [
+      "BISINDO"
+    ],
+    "BISINDO_1": [
+      "BISINDO"
+    ],
+    "BISINDO_10": [
+      "BISINDO"
+    ],
+    "BISINDO_2": [
+      "BISINDO"
+    ],
+    "BISINDO_3": [
+      "BISINDO"
+    ],
+    "BISINDO_4": [
+      "BISINDO"
+    ],
+    "BISINDO_5": [
+      "BISINDO"
+    ],
+    "BISINDO_6": [
+      "BISINDO"
+    ],
+    "BISINDO_7": [
+      "BISINDO"
+    ],
+    "BISINDO_8": [
+      "BISINDO"
+    ],
+    "BISINDO_9": [
+      "BISINDO"
+    ],
+    "BISINDO_A": [
+      "BISINDO"
+    ],
+    "BISINDO_B": [
+      "BISINDO"
+    ],
+    "BISINDO_BAHASA ISYARAT": [
+      "BISINDO"
+    ],
+    "BISINDO_BELAJAR": [
+      "BISINDO"
+    ],
+    "BISINDO_BISA": [
+      "BISINDO"
+    ],
+    "BISINDO_C": [
+      "BISINDO"
+    ],
+    "BISINDO_D": [
+      "BISINDO"
+    ],
+    "BISINDO_E": [
+      "BISINDO"
+    ],
+    "BISINDO_F": [
+      "BISINDO"
+    ],
+    "BISINDO_G": [
+      "BISINDO"
+    ],
+    "BISINDO_H": [
+      "BISINDO"
+    ],
+    "BISINDO_I": [
+      "BISINDO"
+    ],
+    "BISINDO_J": [
+      "BISINDO"
+    ],
+    "BISINDO_K": [
+      "BISINDO"
+    ],
+    "BISINDO_L": [
+      "BISINDO"
+    ],
+    "BISINDO_M": [
+      "BISINDO"
+    ],
+    "BISINDO_MAAF": [
+      "BISINDO"
+    ],
+    "BISINDO_N": [
+      "BISINDO"
+    ],
+    "BISINDO_O": [
+      "BISINDO"
+    ],
+    "BISINDO_P": [
+      "BISINDO"
+    ],
+    "BISINDO_PERMISI": [
+      "BISINDO"
+    ],
+    "BISINDO_Q": [
+      "BISINDO"
+    ],
+    "BISINDO_R": [
+      "BISINDO"
+    ],
+    "BISINDO_S": [
+      "BISINDO"
+    ],
+    "BISINDO_SAMA SAMA": [
+      "BISINDO"
+    ],
+    "BISINDO_SEDIKIT": [
+      "BISINDO"
+    ],
+    "BISINDO_T": [
+      "BISINDO"
+    ],
+    "BISINDO_TEMAN-TEMAN": [
+      "BISINDO"
+    ],
+    "BISINDO_TERIMAKASIH": [
+      "BISINDO"
+    ],
+    "BISINDO_TOLONG": [
+      "BISINDO"
+    ],
+    "BISINDO_U": [
+      "BISINDO"
+    ],
+    "BISINDO_V": [
+      "BISINDO"
+    ],
+    "BISINDO_W": [
+      "BISINDO"
+    ],
+    "BISINDO_X": [
+      "BISINDO"
+    ],
+    "BISINDO_Y": [
+      "BISINDO"
+    ],
+    "BISINDO_Z": [
+      "BISINDO"
+    ]
+  },
+  "language_names": {
+    "0": "BISINDO",
+    "1": "SIBI"
+  },
+  "merge_sign_classes": false,
+  "sequence_length": 30
+}
