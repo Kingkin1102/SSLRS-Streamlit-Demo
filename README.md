@@ -19,6 +19,8 @@ If you want to run this application on your own machine:
    ```bash
    git clone https://github.com/Kingkin1102/SSLRS-Streamlit-Demo.git
 2. Install the required libraries:
+   ```bash
    pip install -r requirements.txt
-3. Run the Streamlit application:
+4. Run the Streamlit application:
+   ```bash
    streamlit run app.py
