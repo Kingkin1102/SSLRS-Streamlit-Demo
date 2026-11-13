@@ -9,6 +9,9 @@ import json
 import av
 from streamlit_webrtc import webrtc_streamer, VideoProcessorBase, RTCConfiguration
 
+if not hasattr(st, "experimental_rerun"):
+    st.experimental_rerun = st.rerun
+
 st.set_page_config(page_title="SSLRS Real-Time", layout="centered")
 st.title("🤟 SSLRS: Real-Time Sign Language Reader")
 st.write("Show your SIBI or BISINDO hand gesture to the camera. The prediction updates in real-time.")
