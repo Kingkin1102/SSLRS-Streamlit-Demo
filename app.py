@@ -110,7 +110,6 @@ RTC_CONFIGURATION = RTCConfiguration(
 
 webrtc_streamer(
     key="sign-language",
-       mode="sendrecv",
     video_processor_factory=VideoProcessor,
     rtc_configuration=RTC_CONFIGURATION,
     media_stream_constraints={"video": True, "audio": False},
